@@ -400,6 +400,20 @@
            </li>
        </ul>
    </div>
+   <div class="send-container-footer">
+    <h3 class="title-footer">Подпишитесь на рассылку</h3>
+    <form class="send-footer">
+        <label for="mail">
+            <input class="send-input" type="email" name="mail" id="mail" placeholder="E-mail">
+        </label>
+        <button class="send-button" type="submit">Подписаться
+            <svg class="icon-send-footer" width="24" height="24">
+                <use href="./images/sprite.svg#icon-icon-send"></use>
+            </svg>
+
+        </button>
+    </form>
+</div>
 </div>
 </footer>
 <div class="backdrop is-hidden" data-modal>
@@ -409,9 +423,68 @@
                 <use href="./images/sprite.svg#icon-close-icon">
 
                 </use>
-
             </svg>
         </button>
+        <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+        <form>
+            <div class="items-modal">
+                <label class="" for="name">Имя
+                    <input class="input-modal"
+                    type="text"
+                    name="user-name"
+                    id="name"
+                    />
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href=""></use>
+                    </svg>
+                </label>
+            </div>
+            <div class="items-modal">
+                <label class="" for="tel">Телефон
+                    <input class="input-modal"
+                    type="tel"
+                    name="user-tel"
+                    id="tel"
+                    />
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href=""></use>
+                    </svg>
+                </label>
+            </div>
+            <div class="items-modal">
+                <label class="" for="email">Почта
+                    <input class="input-modal"
+                    type="email"
+                    name="user-mail"
+                    id="email"
+                    />
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href=""></use>
+                    </svg>
+                </label>
+            </div>
+            <div class="items-modal">
+                <label class="" for="comment">Комментарий
+                    <textarea
+                    class=""
+                    name="comment"
+                    id="comment"
+                    cols="30"
+                    rows="10"
+                    placeholder="Введите текст">
+                    </textarea>
+                    <svg class="modal-icon" width="18" height="18">
+                        <use href=""></use>
+                    </svg>
+                </label>
+            </div>
+            <div class="contract terms">
+                <label>
+                    
+                </label>
+
+            </div>
+        </form>
     </div>
 </div>
 <script src="./js/modal.js"></script>

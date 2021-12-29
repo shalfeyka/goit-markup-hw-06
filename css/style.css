@@ -574,6 +574,10 @@ img {
     align-items: center;
     cursor: pointer;
     padding: 0 0;
+    color: var(--color-text);
+}
+.button-close:hover {
+    color: var(--hover-collor-text);
 }
 .send-container-footer {
     margin-left: 93px;
@@ -612,8 +616,32 @@ img {
     height: 50px;
     background: inherit;
 }
+.modal-title {
+    color: var(--color-text);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+    margin-top: 40px;
+}
+.form-modal {
+   
+}
+.items-modal {
+    display: flex;
+   
+}
+.label-modal {
+    display: flex;
+    font
+}
+.modal-icon {
+    position: absolute;
+    
 
-
+}
 
 /*portfolio*/
 

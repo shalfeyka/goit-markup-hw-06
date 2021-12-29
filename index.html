@@ -426,45 +426,45 @@
             </svg>
         </button>
         <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
-        <form>
+        <form class="form-modal">
             <div class="items-modal">
-                <label class="" for="name">Имя
+                <label class="label-modal" for="name">Имя
                     <input class="input-modal"
                     type="text"
                     name="user-name"
                     id="name"
                     />
                     <svg class="modal-icon" width="18" height="18">
-                        <use href=""></use>
+                        <use href="./images/sprite.svg#icon-person-modal"></use>
                     </svg>
                 </label>
             </div>
             <div class="items-modal">
-                <label class="" for="tel">Телефон
+                <label class="label-modal" for="tel">Телефон
                     <input class="input-modal"
                     type="tel"
                     name="user-tel"
                     id="tel"
                     />
                     <svg class="modal-icon" width="18" height="18">
-                        <use href=""></use>
+                        <use href="./images/sprite.svg#icon-phone-modal"></use>
                     </svg>
                 </label>
             </div>
             <div class="items-modal">
-                <label class="" for="email">Почта
+                <label class="label-modal" for="email">Почта
                     <input class="input-modal"
                     type="email"
                     name="user-mail"
                     id="email"
                     />
                     <svg class="modal-icon" width="18" height="18">
-                        <use href=""></use>
+                        <use href="./images/sprite.svg#icon-mail-modal"></use>
                     </svg>
                 </label>
             </div>
             <div class="items-modal">
-                <label class="" for="comment">Комментарий
+                <label class="label-modal" for="comment">Комментарий
                     <textarea
                     class=""
                     name="comment"
@@ -479,10 +479,20 @@
                 </label>
             </div>
             <div class="contract terms">
-                <label>
-                    
+                <label class="label terms" for="terms">
+                    <input class="checkbox"
+                            type="checkbox"
+                            name="terms"
+                            id="terms"
+                            />
+                            <svg class="square-image" width="16" height="15">
+                                <use href="./images/sprite.svg#icon-square"></use>
+                            </svg>
+                            <span>
+                                Соглашаюсь с рассылкой и принимаю
+                                <a class="link-modal" href="">Условия договора</a>
+                            </span>
                 </label>
-
             </div>
         </form>
     </div>

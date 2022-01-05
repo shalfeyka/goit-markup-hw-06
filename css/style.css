@@ -673,6 +673,7 @@ img {
 }
 .modal-icon {
     position: absolute;
+<<<<<<< HEAD
     top: 30px;
     left: 15px;
     width: 15px;
@@ -721,6 +722,8 @@ img {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
+    top: 15px;
+    left: 12px;
 }
 
 /*portfolio*/
@@ -756,6 +759,7 @@ a {
     transition-timing-function: var(--timing-function); 
     transition-property: color, box-shadow, background-color; 
     transition-duration: 250ms;
+    background-color: var(--background-team);
 }
 .filter-button:hover,
 .filter-button:focus

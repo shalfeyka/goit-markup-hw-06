@@ -465,17 +465,14 @@
             </div>
             <div class="items-modal">
                 <label class="label-modal" for="comment">Комментарий
-                    <textarea
-                    class=""
+                    <textarea 
+                    class="comment-area"
                     name="comment"
                     id="comment"
                     cols="30"
                     rows="10"
                     placeholder="Введите текст">
                     </textarea>
-                    <svg class="modal-icon" width="18" height="18">
-                        <use href=""></use>
-                    </svg>
                 </label>
             </div>
             <div class="contract terms">
@@ -488,11 +485,14 @@
                             <svg class="square-image" width="16" height="15">
                                 <use href="./images/sprite.svg#icon-square"></use>
                             </svg>
-                            <span>
+                            <span class="text-comment">
                                 Соглашаюсь с рассылкой и принимаю
                                 <a class="link-modal" href="">Условия договора</a>
                             </span>
                 </label>
+            </div>
+            <div class="button-form">
+                <button class="button-modal" tape="submit">Отправить</button>
             </div>
         </form>
     </div>

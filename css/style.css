@@ -563,7 +563,7 @@ img {
 }
 .button-close {
     position: absolute;
-    display: flex;
+    display: flex; 
     justify-content: center;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -625,7 +625,6 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     font-family: inherit;
-    margin-top: 40px;
 }
 .form-modal {
    
@@ -635,11 +634,17 @@ img {
     flex-direction: column;
 }
 .label-modal {
+    position: relative;
     display: flex;
     flex-direction: column;
 }
 .modal-icon {
     position: absolute;
+<<<<<<< HEAD
+=======
+    top: 15px;
+    left: 12px;
+>>>>>>> 87d7d8dd05ee719adce151d146d5db936d4d5fb6
 }
 
 /*portfolio*/

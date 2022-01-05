@@ -549,8 +549,8 @@ img {
     pointer-events: none;
 }
 .modal {
-    width: 528px;
-    height: 581px;
+    min-width: 528px;
+    min-height: 581px;
     background-color: white;
     position: absolute;
     top: 50%;
@@ -559,10 +559,11 @@ img {
     transition-timing-function: var(--timing-function);
     transition-property: transform;
     transition-duration: 250ms;
+    padding: 40px;
 }
 .button-close {
     position: absolute;
-    display: flex;
+    display: flex; 
     justify-content: center;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -624,23 +625,23 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     font-family: inherit;
-    margin-top: 40px;
 }
 .form-modal {
    
 }
 .items-modal {
     display: flex;
-   
+    flex-direction: column;
 }
 .label-modal {
+    position: relative;
     display: flex;
-    font
+    flex-direction: column;
 }
 .modal-icon {
     position: absolute;
-    
-
+    top: 15px;
+    left: 12px;
 }
 
 /*portfolio*/

@@ -618,6 +618,9 @@ img {
     width: 358px;
     height: 50px;
     background: inherit;
+    padding-left: 16px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .modal-title {
     color: var(--color-text);

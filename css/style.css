@@ -575,7 +575,6 @@ img {
     align-items: center;
     cursor: pointer;
     padding: 0 0;
-    position: absolute;
     fill: currentColor;
     background-color: var(--title-color);
 }
@@ -583,7 +582,7 @@ img {
     color: var(--hover-collor-text);
 }
 .send-container-footer {
-    margin-left: 93px;
+    margin-left: auto;
 }
 .send-footer {
     display: inline-flex;
@@ -660,22 +659,18 @@ img {
     line-height: 1.16;
     letter-spacing: 0.01em;
 }
-.label-modal:hover,
-.label-modal:focus {
+ .input-modal:focus +.modal-icon {
     fill: var(--hover-collor-text);
 }
-.comment-area:hover 
-.comment-area:focus {
-    fill: var(--hover-collor-text);
-}
-/*.input-modal:hover + .modal-icon,
-.input-modal:focus + .modal-icon {
-    fill: var(--hover-collor-text);
-}
-.input-modal:hover,
 .input-modal:focus {
     border: 1px solid var(--hover-collor-text);
-}*/
+    outline: none;
+} 
+.comment-area:focus {
+    border: 1px solid var(--hover-collor-text);
+    outline: none;
+}
+
 .comment-area {
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
@@ -737,9 +732,13 @@ img {
 .button-modal:focus {
     background-color: #188CE8;
 }
-
+.label-terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .icon-modal {
-    outline: 2px solid black;
+    border: 2px solid black;
     margin-right: 8px;
     border-radius: 2px;
     width: 15px;
